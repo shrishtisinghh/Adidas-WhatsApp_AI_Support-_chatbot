@@ -70,3 +70,13 @@ Update the from number in the Twilio send node to your sandbox number
 4. Activate Workflow
 Click Activate in n8n
 Send a WhatsApp message to your Twilio number to test
+
+
+
+
+📸 Results:
+<img width="716" height="1600" alt="image" src="https://github.com/user-attachments/assets/ba841f34-4f67-4b2a-a513-c3ac8db3d979" />
+
+
+
+
