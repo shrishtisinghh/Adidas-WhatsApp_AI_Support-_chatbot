@@ -37,3 +37,36 @@ order  order  create  return
 records tracking tickets policy
         ↓
 Send WhatsApp Reply (Twilio)
+
+
+
+🚀 Setup Instructions
+
+1. Prerequisites
+n8n account (cloud or self-hosted)
+Twilio account with WhatsApp sandbox enabled
+Groq API key
+Airtable account with the following tables:
+
+INVENTORY — product name, price fields
+ORDERS — order_id, status, expected delivery
+TICKETS — Name, Notes, Assignee, Status
+
+
+
+
+
+2. Import Workflow
+Open n8n → click Import
+Add your credentials for Twilio, Groq, and Airtable
+
+
+3. Configure Twilio Webhook
+
+Set your n8n webhook URL in Twilio's WhatsApp sandbox settings
+Update the from number in the Twilio send node to your sandbox number
+
+
+4. Activate Workflow
+Click Activate in n8n
+Send a WhatsApp message to your Twilio number to test
